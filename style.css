@@ -1,0 +1,122 @@
+.navbar {
+	margin: auto;
+	width: 100vw;
+	height: 10vh;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgb(155, 148, 148);
+	box-shadow: 2px 2px rgb(71, 69, 69);
+	background-color: rgba(158, 93, 8, 1);
+	position: fixed;
+	top: 0;
+	z-index: 2;
+	}
+
+
+
+.imagebutton {
+	height: ;
+	width: 100vw;
+	color: rgb(155, 148, 148);
+	background-color: hsla(41, 100%, 23%, 1);
+	position: relative;
+	top: 15vh;
+	margin: auto;
+	text-align: justify;
+	padding: 0, 20px, 0, 20px;
+	box-shadow: 2px 2px rgb(71, 69, 69);
+	}
+
+
+img {
+width: 20vw;
+float: left;
+margin: 10px;
+padding: 10px;
+}
+
+p {
+padding: 20px;
+}
+
+
+
+table {
+	border: 2px black;
+	width: 10rem;
+	clear: left;
+	margin: auto;
+}
+
+table button {
+	width: 5vw;
+	box-shadow: 2px 2px rgb(71, 69, 69);
+}
+
+.left-button {
+	float: left;
+}
+
+.right-buttons {
+	float: right;
+	}
+
+.form-box {
+	height: 20vh;
+	background-color: hsla(41, 100%, 23%, 1);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	box-shadow: 2px 2px rgb(71, 69, 69);
+	}
+
+	.input-button {
+		margin: 1vh;
+		box-shadow: 2px 2px rgb(71, 69, 69);
+	}
+
+	.grid-block {
+		width: 100vw;
+		justify-content: center;
+		position: relative;
+		top: 20vh;
+		display: grid;
+		grid-template-rows: 70px 70px 70px 70px 70px;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+		gap: 10px;
+	}
+
+	#historical {
+		background-color: rgb(151, 108, 16);
+		border: 1px solid black;
+		grid-column: 1 / 6;
+		grid-row: 1;
+		box-shadow: 2px 2px rgb(71, 69, 69);
+	}
+
+	#artist {
+		background-color:  rgb(88, 62, 4);
+		border: 1px solid black;
+		grid-column: -4 / -6;
+		grid-row: 2 / 5;	
+		box-shadow: 2px 2px rgb(71, 69, 69);	
+	}
+
+	#related {
+		background-color: rgb(184, 142, 51);
+		border: 1px solid black;
+		grid-column: 1 / 6;
+		grid-row: 5;
+		box-shadow: 2px 2px rgb(71, 69, 69);		
+		}
+
+	#demo {
+		background-color:rgb(224, 158, 13);
+		border: 1px solid black;
+		grid-column: 3 / 6;
+		grid-row: 2 / 5;
+		box-shadow: 2px 2px rgb(71, 69, 69);
+		}

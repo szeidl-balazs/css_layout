@@ -87,6 +87,7 @@ table button {
 		grid-template-rows: 70px 70px 70px 70px 70px;
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 		gap: 10px;
+		color: rgb(221, 214, 214);
 	}
 
 	#historical {
